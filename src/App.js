@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blogs from './Pages/Blogs';
 import Home from './Pages/Home/Home';
+import NotFound from './Pages/NotFound';
 import Navbar from './Shared/Navbar';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/blogs" element={<Blogs></Blogs>} />
+        <Route path="*" element={<NotFound></NotFound>} />
         
       </Routes>
     </div>
