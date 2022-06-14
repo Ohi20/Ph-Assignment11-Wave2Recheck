@@ -9,7 +9,7 @@ import Navbar from './Shared/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className='px-12'>
       <Navbar></Navbar>
         <Routes>
         <Route path="/" element={<Home/>} />

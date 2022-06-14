@@ -105,6 +105,9 @@ const Login = () => {
     </form>
     <p><small>New to Camerassories? <Link className='text-secondary' to="/signup">Create New Account</Link></small></p>
     <div class="divider">OR</div>
+  <div>
+  
+  </div>
     <button onClick={() => signInWithGoogle()} 
     className='btn btn-outline text-white'>Continue with Google</button>
   </div>
