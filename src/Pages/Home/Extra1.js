@@ -6,6 +6,12 @@ const Extra1 = () => {
         <h2 className='text-center text-2xl text-white font-bold mt-10 mb-0 bg-neutral p-5'>Business Summary</h2>
         <div className='text-center grid grid-cols-1 sm:cols-1 text-xl '>
         <div class="stats shadow bg-neutral text-white">
+        <div>
+    <span class="flex h-1 w-1">
+  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+  <span class="relative inline-flex rounded-full h-1 w-1 bg-white-500"></span>
+</span>  
+     </div> 
 
 <div class="stat">
 <div class="stat-figure text-primary">
